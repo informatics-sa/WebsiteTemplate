@@ -1,10 +1,11 @@
-# Saudi Informatics Team Website
-This website is made by the students on the Saudi Team, to preserve history of Saudi Informatics Team (SIT) in one place.
+# WebsiteTemplate
+### powered by [WebsiteBuilder](https://github.com/informatics-sa/WebsiteBuilder)
+This is an example website showcasing the WebsiteBuilder API; Commonly used to create Saudi olympiad teams' websites, to preserve history of the olympiads in one place.
 
-This website includes: olympiads, participations, members, contact, and image library.
+This website includes: olympiads, participations, members and contact.
 
 ## Documentation
-Read [Website public data files](https://sainformatics.org/data/) documentation.
+Read Website [public data files documentation](https://sainformatics.org/data/).
 
 You might also refer to [Developer documentation](https://sainformatics.org/data/dev).
 
@@ -12,12 +13,17 @@ You might also refer to [Developer documentation](https://sainformatics.org/data
 ## Local Build
 ### Prerequisites
 You need:
+
 - [Python Interpreter](https://python.org)
 - [Ruby Interpreter](https://www.ruby-lang.org)
+- Python dependency [requests](https://pypi.org/project/requests/); install using pip (or your system's python package manager):
+  ```sh
+  pip install requests
+  ```
 - Install Ruby dependencies using [Bundler](https://bundler.io):
-```sh
-bundle install
-```
+  ```sh
+  bundle install
+  ```
 
 <details>
     <summary>How does it work?</summary>
@@ -30,23 +36,12 @@ bundle install
 python prebuild.py && python build.py && bundle exec jekyll serve -s ./root
 ```
 
-If you have [WebsiteBuilder](https://github.com/informatics-sa/WebsiteBuilder) locally you can do:
+If you have WebsiteBuilder locally you can do:
 ```sh
 python prebuild.py --path ../WebsiteBuilder && python build.py && bundle exec jekyll serve -s ./root
 ```
 
-## Maintainers
-This website needs people who maintain the data up-to-date.
-
-The main goal is to have at any time **at least 3 active maintainers**.
-
-### Current maintainers:
-
-- Muaath Alqarni
-- Ali Alsalman
-- Sultan Alaiban
-
 ## License
 This project is licensed under the GNU General Public License v3.0.
 
-Check [LICENSE](https://github.com/informatics-sa/informatics-sa.github.io/blob/main/LICENSE)
+Check [LICENSE](/LICENSE)
