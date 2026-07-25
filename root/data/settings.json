@@ -1,5 +1,7 @@
 {
-    "version": "1.0.0",
+    "website_builder": {
+        "branch": "dependency-resolution"
+    },
     "old_id_system": false,
     "enable_exams_page": true,
     "enable_members_index": true,
