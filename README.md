@@ -16,9 +16,9 @@ You need:
 
 - [Python Interpreter](https://python.org)
 - [Ruby Interpreter](https://www.ruby-lang.org)
-- Python dependency [requests](https://pypi.org/project/requests/); install using pip (or your system's python package manager):
+- Python dependencies [requests](https://pypi.org/project/requests/) and [semver](https://pypi.org/project/semver/); install using pip (or your system's python package manager):
   ```sh
-  pip install requests
+  pip install requests semver
   ```
 - Install Ruby dependencies using [Bundler](https://bundler.io):
   ```sh
