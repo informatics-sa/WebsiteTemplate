@@ -1,6 +1,6 @@
 {
     "website_builder": {
-        "branch": "dependency-resolution"
+        "branch": "main"
     },
     "old_id_system": false,
     "enable_exams_page": true,
